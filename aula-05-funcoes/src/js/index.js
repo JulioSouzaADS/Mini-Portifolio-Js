@@ -3,7 +3,7 @@ function adicionarFilme() {
     if ( campoFilmeFavorito.endsWith(".jpg") || campoFilmeFavorito.endsWith(".png") ) {
         listarFilmesNaTela(campoFilmeFavorito);
     } else {
-        console.error (" Endereço De Anime Invalido ")
+        window.alert(" Endereço De Anime Invalido ")
     }
     document.getElementById ('filme').value ="";
 }
